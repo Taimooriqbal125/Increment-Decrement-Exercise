@@ -16,3 +16,10 @@ var x = 3 ;
 var y = ++x + x++ + ++x ; 
 console.log( "RESULT" ,y);
 
+// Q 4
+var m = 2 ;
+var n = 4 ;
+var p = m++ + ++n - --m + n--;
+console.log(m); 
+console.log(n);
+console.log(p);
