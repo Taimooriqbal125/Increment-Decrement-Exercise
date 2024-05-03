@@ -23,3 +23,17 @@ var p = m++ + ++n - --m + n--;
 console.log(m); 
 console.log(n);
 console.log(p);
+
+// Q 5 
+var a = 3;
+var b = 5;
+var result = ++a + b-- - a++ + --b;
+console.log(result);
+
+// Q 6 
+var A = 5 ;
+var B = 3 ;
+var C = 2;
+var D = 7;
+var TOTAL = ++A * (B-- + C)/ --D ;
+console.log(TOTAL)
