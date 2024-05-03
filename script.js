@@ -37,3 +37,10 @@ var C = 2;
 var D = 7;
 var TOTAL = ++A * (B-- + C)/ --D ;
 console.log(TOTAL)
+
+//  Q 7 
+var T = 2;
+var E = 3;
+var M = 4;
+var TEM = T++ * (--E + T)/(M-- - E)
+console.log(TEM)
